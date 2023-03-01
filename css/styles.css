@@ -1,0 +1,1637 @@
+.m_intro .title, .m_killpecker .title, .m_off_road .title, .m_red_desert .title, .m_rock_springs .title, .m_intro .heading, .m_killpecker .heading, .m_off_road .heading, .m_red_desert .heading, .m_rock_springs .heading, .m_intro .subheading, .m_killpecker .subheading, .m_off_road .subheading, .m_red_desert .subheading, .m_rock_springs .subheading, .m_attractions .heading, .m_hero .tagline, .m_rock_springs p.cta a {
+  font-family: rosewood-std-fill, serif;
+  font-weight: 400;
+  line-height: 0.79762;
+  letter-spacing: -0.06em;
+}
+
+.m_intro p, .m_killpecker p, .m_off_road p, .m_red_desert p, .m_rock_springs p, .m_attractions p, .m_cowfish p, .m_off_road ul, .m_outro p {
+  font-family: "Crimson Pro", serif;
+  font-weight: 300;
+  line-height: 1.40909;
+}
+.m_intro p:not(:first-child), .m_killpecker p:not(:first-child), .m_off_road p:not(:first-child), .m_red_desert p:not(:first-child), .m_rock_springs p:not(:first-child), .m_attractions p:not(:first-child), .m_cowfish p:not(:first-child), .m_off_road ul:not(:first-child), .m_outro p:not(:first-child) {
+  margin-top: 1.2em;
+}
+.m_intro p:not(:last-child), .m_killpecker p:not(:last-child), .m_off_road p:not(:last-child), .m_red_desert p:not(:last-child), .m_rock_springs p:not(:last-child), .m_attractions p:not(:last-child), .m_cowfish p:not(:last-child), .m_off_road ul:not(:last-child), .m_outro p:not(:last-child) {
+  margin-bottom: 1.2em;
+}
+.m_intro p.small, .m_killpecker p.small, .m_off_road p.small, .m_red_desert p.small, .m_rock_springs p.small, .m_attractions p.small, .m_cowfish p.small, .m_off_road ul.small, .m_outro p.small {
+  font-style: italic;
+  line-height: 1.15625;
+}
+.m_intro p + p.small, .m_killpecker p + p.small, .m_off_road p + p.small, .m_red_desert p + p.small, .m_rock_springs p + p.small, .m_attractions p + p.small, .m_cowfish p + p.small, .m_off_road ul + p.small, .m_outro p + p.small {
+  margin-top: -1em;
+}
+@media (min-width: 1600px) {
+  .m_intro p, .m_killpecker p, .m_off_road p, .m_red_desert p, .m_rock_springs p, .m_attractions p, .m_cowfish p, .m_off_road ul, .m_outro p {
+    font-size: 22px;
+  }
+  .m_intro p.small, .m_killpecker p.small, .m_off_road p.small, .m_red_desert p.small, .m_rock_springs p.small, .m_attractions p.small, .m_cowfish p.small, .m_off_road ul.small, .m_outro p.small {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .m_intro p, .m_killpecker p, .m_off_road p, .m_red_desert p, .m_rock_springs p, .m_attractions p, .m_cowfish p, .m_off_road ul, .m_outro p {
+    font-size: 1.375vw;
+  }
+  .m_intro p.small, .m_killpecker p.small, .m_off_road p.small, .m_red_desert p.small, .m_rock_springs p.small, .m_attractions p.small, .m_cowfish p.small, .m_off_road ul.small, .m_outro p.small {
+    font-size: 1vw;
+  }
+}
+@media (max-width: 1023px) {
+  .m_intro p, .m_killpecker p, .m_off_road p, .m_red_desert p, .m_rock_springs p, .m_attractions p, .m_cowfish p, .m_off_road ul, .m_outro p {
+    font-size: 4.83871vw;
+  }
+}
+
+.m_attractions .c__grid-item a, .m_hero .c__ctas, .m_outro .heading {
+  font-family: rig-sans, sans-serif;
+  font-weight: 200;
+}
+
+@media (min-width: 1600px) {
+  .l_wrapper {
+    padding: 0 175px 0;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .l_wrapper {
+    padding: 0 10.9375vw 0;
+  }
+}
+@media (max-width: 1023px) {
+  .l_wrapper {
+    padding: 0 6.93548vw 0;
+  }
+  .l_wrapper--mobile_pull {
+    margin-left: -6.93548vw;
+    margin-right: -6.93548vw;
+  }
+}
+
+/* No files to import found in themes/* */
+.d_drop_down {
+  transition: opacity 500ms, transform 500ms;
+}
+.d_drop_down:not(.peek85) {
+  opacity: 0;
+  transform: translateY(-48px);
+}
+
+.d_lines {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  clip-path: inset(0 0 0 0);
+  transition: clip-path 1000ms ease-in;
+}
+.d_lines__container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.c_gallery {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  position: relative;
+  z-index: 1;
+}
+.c_gallery-item {
+  transition: opacity 500ms, transform 500ms;
+}
+.c_gallery-item .inner {
+  padding-top: 100%;
+  background: no-repeat center / cover;
+  cursor: pointer;
+  position: relative;
+}
+.c_gallery-item .inner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  opacity: 0;
+  transition: opacity 250ms;
+}
+.c_gallery-item .inner:hover:before {
+  opacity: 0.3;
+}
+.c_gallery-item:nth-child(1) {
+  transition-delay: 50ms;
+}
+.c_gallery-item:nth-child(2) {
+  transition-delay: 100ms;
+}
+.c_gallery-item:nth-child(3) {
+  transition-delay: 150ms;
+}
+.c_gallery-item:nth-child(4) {
+  transition-delay: 200ms;
+}
+.c_gallery-item:nth-child(5) {
+  transition-delay: 250ms;
+}
+.c_gallery-item:nth-child(6) {
+  transition-delay: 300ms;
+}
+.c_gallery-item:nth-child(7) {
+  transition-delay: 350ms;
+}
+.c_gallery-item:nth-child(8) {
+  transition-delay: 400ms;
+}
+.c_gallery-item:nth-child(9) {
+  transition-delay: 450ms;
+}
+.c_gallery-item:nth-child(10) {
+  transition-delay: 500ms;
+}
+.c_gallery-item:nth-child(11) {
+  transition-delay: 550ms;
+}
+.c_gallery-item:nth-child(12) {
+  transition-delay: 600ms;
+}
+.c_gallery-item:nth-child(13) {
+  transition-delay: 650ms;
+}
+.c_gallery-item:nth-child(14) {
+  transition-delay: 700ms;
+}
+.c_gallery-item:nth-child(15) {
+  transition-delay: 750ms;
+}
+.c_gallery-item:nth-child(16) {
+  transition-delay: 800ms;
+}
+.c_gallery-item:nth-child(17) {
+  transition-delay: 850ms;
+}
+.c_gallery-item:nth-child(18) {
+  transition-delay: 900ms;
+}
+.c_gallery-item:nth-child(19) {
+  transition-delay: 950ms;
+}
+.c_gallery-item:nth-child(20) {
+  transition-delay: 1000ms;
+}
+.c_gallery:not(.peek70) .c_gallery-item {
+  opacity: 0;
+  transform: translateY(-25%);
+}
+.c_gallery-overlay {
+  transition: opacity 500ms, transform 500ms;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.c_gallery-overlay .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+.c_gallery-overlay .close {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+.c_gallery-overlay .close .icon {
+  display: block;
+  position: relative;
+  padding-top: 100%;
+  transform: rotate(45deg);
+}
+.c_gallery-overlay .close .icon:before, .c_gallery-overlay .close .icon:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: white;
+  transform: translate(-50%, -50%);
+}
+.c_gallery-overlay .close .icon:before {
+  width: 60%;
+  height: 3%;
+}
+.c_gallery-overlay .close .icon:after {
+  height: 60%;
+  width: 3%;
+}
+.c_gallery-overlay .photo {
+  background: white;
+  background: no-repeat center / cover;
+}
+.c_gallery:not(.active) .c_gallery-overlay {
+  opacity: 0;
+  transform: scale(0);
+  z-index: -1;
+}
+@media (min-width: 1024px) {
+  .c_gallery-item {
+    flex: 1 1 19%;
+  }
+  .c_gallery-overlay .close {
+    right: -4%;
+    width: 8%;
+  }
+  .c_gallery-overlay .photo {
+    height: 80%;
+    width: 94%;
+  }
+}
+@media (min-width: 1600px) {
+  .c_gallery {
+    gap: 6px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .c_gallery {
+    gap: 0.375vw;
+  }
+}
+@media (max-width: 1023px) {
+  .c_gallery {
+    gap: 0.96774vw;
+  }
+  .c_gallery-item {
+    flex: 0 1 32%;
+  }
+  .c_gallery-overlay {
+    position: fixed;
+  }
+  .c_gallery-overlay .close {
+    right: 0;
+    width: 14%;
+  }
+  .c_gallery-overlay .photo {
+    width: 94vw;
+    height: 63vw;
+  }
+}
+
+.c_video_player {
+  position: relative;
+  width: 100%;
+  transition: opacity 250ms ease-out;
+}
+.c_video_player .play {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  direction: ltr;
+  display: inline-block;
+  text-indent: -9999em;
+  z-index: 2;
+  cursor: pointer;
+  background: none !important;
+  transition: background-size 1250ms ease-out;
+}
+.c_video_player .play:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: url(../img/play-button.png) no-repeat center/auto 26%;
+}
+.c_video_player .play.ended:before {
+  background-image: url(../img/play-button.png);
+}
+.c_video_player:not(.peek85) {
+  opacity: 0;
+}
+.c_video_player:not(.peek85) .play {
+  background-size: 110% auto;
+}
+.c_video_player.playWithAudio .play {
+  position: fixed;
+  left: -9999em;
+  right: auto;
+  height: 0;
+  overflow: hidden;
+}
+.c_video_player video {
+  display: block;
+  width: 100%;
+}
+.c_video_player.expandable {
+  transition: padding-top 500ms, opacity 250ms ease-out;
+}
+.c_video_player.expandable:not(.playWithAudio) {
+  padding-top: 28.78125%;
+}
+.c_video_player.expandable.playWithAudio {
+  padding-top: 56.30027%;
+}
+.c_video_player.expandable .c_video_player-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  overflow: hidden;
+}
+@media (max-width: 1023px) {
+  .c_video_player .play:before {
+    background-size: auto 25%;
+  }
+}
+
+.u_fadeUp {
+  transition-property: transform, opacity;
+  transition-duration: 400ms;
+}
+.u_fadeUp:not(.peek70) {
+  transform: translateY(50%);
+  opacity: 0;
+}
+
+.u_fadeRight {
+  transition-property: transform, opacity;
+  transition-duration: 400ms;
+}
+.u_fadeRight:not(.peek70) {
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+.u_fadeLeft {
+  transition-property: transform, opacity;
+  transition-duration: 400ms;
+}
+.u_fadeLeft:not(.peek70) {
+  transform: translateX(50%);
+  opacity: 0;
+}
+
+.m_intro .title, .m_killpecker .title, .m_off_road .title, .m_red_desert .title, .m_rock_springs .title {
+  text-align: center;
+}
+.m_intro .subheading, .m_killpecker .subheading, .m_off_road .subheading, .m_red_desert .subheading, .m_rock_springs .subheading {
+  line-height: 0.94898;
+}
+.m_intro .intro, .m_killpecker .intro, .m_off_road .intro, .m_red_desert .intro, .m_rock_springs .intro {
+  text-align: center;
+}
+@media (min-width: 1600px) {
+  .m_intro .title, .m_killpecker .title, .m_off_road .title, .m_red_desert .title, .m_rock_springs .title {
+    font-size: 157.5px;
+  }
+  .m_intro .heading, .m_killpecker .heading, .m_off_road .heading, .m_red_desert .heading, .m_rock_springs .heading {
+    font-size: 84px;
+  }
+  .m_intro .subheading, .m_killpecker .subheading, .m_off_road .subheading, .m_red_desert .subheading, .m_rock_springs .subheading {
+    font-size: 49px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .m_intro .title, .m_killpecker .title, .m_off_road .title, .m_red_desert .title, .m_rock_springs .title {
+    font-size: 9.84375vw;
+  }
+  .m_intro .heading, .m_killpecker .heading, .m_off_road .heading, .m_red_desert .heading, .m_rock_springs .heading {
+    font-size: 5.25vw;
+  }
+  .m_intro .subheading, .m_killpecker .subheading, .m_off_road .subheading, .m_red_desert .subheading, .m_rock_springs .subheading {
+    font-size: 3.0625vw;
+  }
+}
+@media (max-width: 1023px) {
+  .m_intro .title, .m_killpecker .title, .m_off_road .title, .m_red_desert .title, .m_rock_springs .title, .m_intro .heading, .m_killpecker .heading, .m_off_road .heading, .m_red_desert .heading, .m_rock_springs .heading, .m_intro .subheading, .m_killpecker .subheading, .m_off_road .subheading, .m_red_desert .subheading, .m_rock_springs .subheading, .m_intro p, .m_killpecker p, .m_off_road p, .m_red_desert p, .m_rock_springs p {
+    text-align: center;
+  }
+  .m_intro .title, .m_killpecker .title, .m_off_road .title, .m_red_desert .title, .m_rock_springs .title {
+    font-size: 18.22581vw;
+  }
+  .m_intro .heading, .m_killpecker .heading, .m_off_road .heading, .m_red_desert .heading, .m_rock_springs .heading, .m_intro .subheading, .m_killpecker .subheading, .m_off_road .subheading, .m_red_desert .subheading, .m_rock_springs .subheading {
+    font-size: 13.54839vw;
+  }
+}
+
+.m_attractions {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  background: #ffffff;
+}
+.m_attractions .heading {
+  color: #476e72;
+  text-align: center;
+}
+.m_attractions p {
+  color: #5a4127;
+}
+.m_attractions .c__grid {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.m_attractions .c__grid-item {
+  transition: opacity 500ms, transform 500ms;
+}
+.m_attractions .c__grid-item a {
+  padding: 0% 10% 10%;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+  text-align: center;
+  color: #476e72;
+  text-decoration: underline;
+}
+.m_attractions .c__grid-item a img {
+  max-width: 76%;
+  max-height: 70%;
+  margin-bottom: 2%;
+}
+.m_attractions .c__grid-item a:before {
+  content: "";
+}
+.m_attractions .c__grid-item:nth-child(1) {
+  transition-delay: 100ms;
+}
+.m_attractions .c__grid-item:nth-child(2) {
+  transition-delay: 200ms;
+}
+.m_attractions .c__grid-item:nth-child(3) {
+  transition-delay: 300ms;
+}
+.m_attractions .c__grid-item:nth-child(4) {
+  transition-delay: 400ms;
+}
+.m_attractions .c__grid:not(.peek85) .c__grid-item {
+  opacity: 0;
+  transform: translateY(-48px);
+}
+@media (min-width: 1024px) {
+  .m_attractions {
+    padding: 3.125% 0;
+  }
+  .m_attractions .c__grid {
+    margin-top: 1.25%;
+    width: 57.5%;
+  }
+  .m_attractions .c__grid-item {
+    flex: 1 25%;
+  }
+  .m_attractions .c__grid-item:not(:first-child) {
+    border-left: 1px solid #9b3230;
+  }
+  .m_attractions .d_lines.d--attractions {
+    width: 9%;
+    padding-top: 28.78125%;
+    background-image: url("../img/lines/attractions.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 73.53125%;
+  }
+  .m_attractions .d_lines.d--attractions:not(.peek85) {
+    clip-path: inset(0 0 100% 0);
+  }
+}
+@media (min-width: 1600px) {
+  .m_attractions .heading {
+    font-size: 54px;
+  }
+  .m_attractions .c__grid a {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .m_attractions .heading {
+    font-size: 3.375vw;
+  }
+  .m_attractions .c__grid a {
+    font-size: 1.5vw;
+  }
+}
+@media (max-width: 1023px) {
+  .m_attractions {
+    background: url(../img/terrain2-bg-mobile.png) repeat-y top/100%;
+    padding: 19.35484vw 0 8.87097vw;
+  }
+  .m_attractions .heading {
+    font-size: 13.54839vw;
+  }
+  .m_attractions .c__grid {
+    margin-top: 9.67742vw;
+    row-gap: 2.74194vw;
+  }
+  .m_attractions .c__grid-item {
+    flex: 1 50%;
+  }
+  .m_attractions .c__grid-item:nth-child(even) {
+    border-left: 1px solid #9b3230;
+  }
+  .m_attractions .c__grid a {
+    font-size: 4.35484vw;
+  }
+  .m_attractions .d_lines.d--attractions {
+    width: 7.41935vw;
+    padding-top: 3.46774vw;
+    background-image: url("../img/lines/attractions-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 90.96774vw;
+    top: 19.03226vw;
+    transition-duration: 250ms;
+  }
+  .m_attractions .d_lines.d--attractions:not(.peek85) {
+    clip-path: inset(0 0 0 100%);
+  }
+}
+
+.m_cowfish {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.m_cowfish .intro {
+  text-align: center;
+}
+.m_cowfish p {
+  color: #5a4127;
+}
+@media (min-width: 1024px) {
+  .m_cowfish {
+    background: url(../img/terrain2-bg.png) repeat-y top/100%;
+    padding: 5% 0;
+  }
+  .m_cowfish .eat_at_cowfish {
+    width: 50.65625%;
+    margin-bottom: -2.5%;
+  }
+  .m_cowfish .intro {
+    width: 27.5%;
+  }
+  .m_cowfish .plate {
+    width: 40.875%;
+  }
+  .m_cowfish .video_container {
+    width: 48.65625%;
+    position: relative;
+  }
+  .m_cowfish .video_container .logo_cowfish {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 107%;
+    width: 30.89274%;
+  }
+  .m_cowfish .video_container .logo_cowfish:not(.peek70) {
+    transform: translateY(-75%);
+  }
+  .m_cowfish .d_lines.d--cowfish1 {
+    width: 2.90625%;
+    padding-top: 27.9375%;
+    background-image: url("../img/lines/cowfish1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 48.0625%;
+    margin-top: -0.2%;
+  }
+  .m_cowfish .d_lines.d--cowfish1:not(.peek85) {
+    clip-path: inset(0 0 100% 0);
+  }
+  .m_cowfish .d_lines.d--cowfish2 {
+    width: 39.75%;
+    padding-top: 50.6875%;
+    background-image: url("../img/lines/cowfish2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 51.15625%;
+    margin-top: -17.6%;
+  }
+  .m_cowfish .d_lines__container--cowfish2 {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+  }
+  .m_cowfish .d_lines__container--cowfish2:not(.peek85) .d_lines.d--cowfish2 {
+    clip-path: inset(0 0 100% 0);
+  }
+}
+@media (max-width: 1023px) {
+  .m_cowfish {
+    background: url(../img/terrain2-bg-mobile.png) repeat-y top/100%;
+    padding: 10.48387vw 0 0;
+  }
+  .m_cowfish .eat_at_cowfish {
+    width: 93.95161vw;
+  }
+  .m_cowfish .intro {
+    width: 94.35484vw;
+  }
+  .m_cowfish .plate {
+    width: 98vw;
+  }
+  .m_cowfish .logo_cowfish {
+    width: 27.01613vw;
+    margin: 0 auto 7.58065vw;
+  }
+  .m_cowfish .logo_cowfish:not(.peek85) {
+    opacity: 0;
+    transform: translateY(-25%);
+  }
+  .m_cowfish .d_lines.d--cowfish1 {
+    width: 3.22581vw;
+    padding-top: 32.33871vw;
+    background-image: url("../img/lines/cowfish1-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 47.82258vw;
+  }
+  .m_cowfish .d_lines.d--cowfish1:not(.peek85) {
+    clip-path: inset(0 0 100% 0);
+  }
+  .m_cowfish .d_lines.d--cowfish2--mobile {
+    width: 50.96774vw;
+    padding-top: 42.58065vw;
+    background-image: url("../img/lines/cowfish2-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 47.82258vw;
+    margin-top: 2vw;
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+  }
+  .m_cowfish .d_lines__container--cowfish2--mobile {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+  }
+  .m_cowfish .d_lines__container--cowfish2--mobile:not(.peek70) .d_lines.d--cowfish2--mobile {
+    clip-path: inset(0 100% 100% 0);
+  }
+}
+
+.m_hero {
+  position: relative;
+  color: #321817;
+}
+.m_hero-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  z-index: 2;
+  transition: background-image 400ms;
+}
+.m_hero:not(.peek70) .explore_wyoming,
+.m_hero:not(.peek70) .tagline,
+.m_hero:not(.peek70) .label {
+  opacity: 0;
+}
+.m_hero:not(.peek70) .explore_wyoming {
+  transform: translateY(-25%);
+}
+.m_hero:not(.peek70) .tagline, .m_hero:not(.peek70) .label {
+  transform: translateY(-100%);
+}
+.m_hero .explore_wyoming {
+  transition: opacity 750ms, transform 750ms;
+}
+.m_hero .tagline {
+  transition: opacity 500ms, transform 500ms;
+  letter-spacing: -0.02em;
+  transition-delay: 250ms;
+}
+.m_hero .c__ctas {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  column-gap: 0.72917em;
+  text-transform: uppercase;
+}
+.m_hero .label {
+  cursor: pointer;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 1.54167em;
+  padding: 0 0.625em;
+  background: rgba(255, 255, 255, 0.4);
+  transition: opacity 500ms, transform 500ms, background-color 250ms;
+}
+.m_hero .label:hover {
+  background: white;
+}
+.m_hero .label:nth-child(1) {
+  transition-delay: 500ms, 500ms, 0ms;
+}
+.m_hero .label:nth-child(2) {
+  transition-delay: 750ms, 750ms, 0ms;
+}
+.m_hero .label:nth-child(3) {
+  transition-delay: 1000ms, 1000ms, 0ms;
+}
+.m_hero .radio {
+  position: fixed;
+  left: -9999em;
+  right: auto;
+  height: 0;
+  overflow: hidden;
+}
+.radio#lander-hero:checked ~ .m_hero-inner .label[for="lander-hero"], .radio#red-desert-hero:checked ~ .m_hero-inner .label[for="red-desert-hero"], .radio#rock-springs-hero:checked ~ .m_hero-inner .label[for="rock-springs-hero"] {
+  background: white;
+}
+.radio#lander-hero:not(:checked) ~ .m_hero-inner .d_lines.d--lander-hero, .radio#red-desert-hero:not(:checked) ~ .m_hero-inner .d_lines.d--red-desert-hero, .radio#rock-springs-hero:not(:checked) ~ .m_hero-inner .d_lines.d--rock-springs-hero {
+  clip-path: inset(0 0 100% 0);
+}
+.m_hero .d_lines {
+  transition: clip-path 500ms ease-in 250ms;
+}
+.m_hero .d_lines:not(.peek85) {
+  clip-path: inset(0 0 100% 0);
+}
+@media (min-width: 1024px) {
+  .m_hero {
+    padding-top: 42.84375%;
+  }
+  .m_hero-inner {
+    padding: 4.5% 0;
+    background: url("../img/lander-hero-bg.jpg") no-repeat center top/cover;
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 85.2%);
+  }
+  .m_hero .tagline {
+    margin-top: 0.44186em;
+    margin-bottom: 0.40698em;
+  }
+  .radio#lander-hero:checked ~ .m_hero-inner {
+    background-image: url("../img/lander-hero-bg.jpg");
+  }
+  .radio#red-desert-hero:checked ~ .m_hero-inner {
+    background-image: url("../img/red-desert-hero-bg.jpg");
+  }
+  .radio#rock-springs-hero:checked ~ .m_hero-inner {
+    background-image: url("../img/rock-springs-hero-bg.jpg");
+  }
+  .m_hero .explore_wyoming {
+    width: 38.71875%;
+  }
+  .m_hero .d_lines.d--lander-hero {
+    width: 7.4375%;
+    padding-top: 12.40625%;
+    background-image: url("../img/lines/lander-hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 38%;
+    top: 61.4%;
+  }
+  .m_hero .d_lines.d--red-desert-hero {
+    width: 1.4375%;
+    padding-top: 12.40625%;
+    background-image: url("../img/lines/red-desert-hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 45.25%;
+    top: 60.9%;
+  }
+  .m_hero .d_lines.d--rock-springs-hero {
+    width: 15.8125%;
+    padding-top: 13.4375%;
+    background-image: url("../img/lines/rock-springs-hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 45%;
+    top: 60.3%;
+  }
+}
+@media (min-width: 1600px) {
+  .m_hero .tagline {
+    font-size: 43px;
+  }
+  .m_hero .c__ctas {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .m_hero .tagline {
+    font-size: 2.6875vw;
+  }
+  .m_hero .c__ctas {
+    font-size: 1.5vw;
+  }
+}
+@media (max-width: 1023px) {
+  .m_hero {
+    padding-top: 113.54839vw;
+  }
+  .m_hero .explore_wyoming {
+    width: 89.51613vw;
+  }
+  .m_hero .tagline {
+    font-size: 6.20968vw;
+    margin: 2.58065vw 0 5.16129vw;
+  }
+  .m_hero .c__ctas {
+    font-size: 3.79032vw;
+  }
+  .m_hero-inner {
+    padding: 12.90323vw 0;
+    background: url("../img/lander-hero-bg-mobile.jpg") no-repeat center top/cover;
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 94%);
+  }
+  .radio#lander-hero:checked ~ .m_hero-inner {
+    background-image: url("../img/lander-hero-bg-mobile.jpg");
+  }
+  .radio#red-desert-hero:checked ~ .m_hero-inner {
+    background-image: url("../img/red-desert-hero-bg-mobile.jpg");
+  }
+  .radio#rock-springs-hero:checked ~ .m_hero-inner {
+    background-image: url("../img/rock-springs-hero-bg-mobile.jpg");
+  }
+  .m_hero .d_lines.d--lander-hero {
+    width: 18.70968vw;
+    padding-top: 39.27419vw;
+    background-image: url("../img/lines/lander-hero-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 18.4%;
+    top: 60.4%;
+  }
+  .m_hero .d_lines.d--red-desert-hero {
+    width: 7.58065vw;
+    padding-top: 39.51613vw;
+    background-image: url("../img/lines/red-desert-hero-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 32.75%;
+    top: 60.3%;
+  }
+  .m_hero .d_lines.d--rock-springs-hero {
+    width: 41.6129vw;
+    padding-top: 36.53226vw;
+    background-image: url("../img/lines/rock-springs-hero-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 33%;
+    top: 61.3%;
+  }
+}
+
+.m_intro {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.m_intro .thats-wy {
+  margin: 0 auto;
+  position: relative;
+}
+.m_intro p {
+  color: #5a4127;
+}
+.m_intro .title {
+  color: #476e72;
+  margin: 0.3em 0 0.2em;
+}
+@media (min-width: 1024px) {
+  .m_intro {
+    margin-top: -6.6%;
+    background: url(../img/town-bg.png) no-repeat bottom/100%, url(../img/terrain-bg.png) repeat-y top/100%;
+    padding: 5.75% 0 26.875%;
+  }
+  .m_intro .thats-wy {
+    width: 6.6875%;
+    margin-bottom: 2%;
+  }
+  .m_intro .intro {
+    width: 38.5%;
+  }
+  .m_intro .d_lines:not(.peek70) {
+    clip-path: inset(0 0 100% 0);
+  }
+  .m_intro .d_lines.d--intro {
+    width: 27.1875%;
+    padding-top: 33.25%;
+    background-image: url("../img/lines/intro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 17.8125%;
+    margin-top: -2.5%;
+  }
+  .m_intro .d_lines.d--lander {
+    width: 21%;
+    padding-top: 26.65625%;
+    background-image: url("../img/lines/lander.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 18.90625%;
+    margin-top: 3.3%;
+  }
+}
+@media (max-width: 1023px) {
+  .m_intro {
+    margin-top: -7vw;
+    background: url(../img/town-bg-mobile.png) no-repeat bottom/100%, url(../img/terrain-bg-mobile.png) repeat-y top/100%;
+    padding: 13.54839vw 6.6129vw 42.58065vw;
+  }
+  .m_intro .thats-wy {
+    width: 15.96774vw;
+    margin-bottom: 6.29032vw;
+  }
+  .m_intro .title {
+    margin-top: 31.45161vw;
+  }
+  .m_intro .d_lines.d--intro {
+    width: 31.93548vw;
+    padding-top: 6.93548vw;
+    background-image: url("../img/lines/intro-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: -6.6129vw;
+    top: -11.12903vw;
+    transition-duration: 500ms;
+  }
+  .m_intro .d_lines.d--intro:not(.peek70) {
+    clip-path: inset(0 0 0 100%);
+  }
+  .m_intro .d_lines.d--lander {
+    width: 100vw;
+    padding-top: 42.17742vw;
+    background-image: url("../img/lines/lander-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: -6.6129vw;
+  }
+  .m_intro .d_lines.d--lander:not(.peek70) {
+    clip-path: inset(0 100% 0 0);
+  }
+}
+
+.m_killpecker .heading {
+  color: #f8e5c3;
+}
+.m_killpecker p {
+  color: #dadccc;
+}
+@media (min-width: 1024px) {
+  .m_killpecker {
+    background: #010104 url(../img/killpecker-bg.jpg) no-repeat top/100%;
+  }
+  .m_killpecker .content {
+    padding: 30.75% 16.1875% 3.28125% 50.25%;
+  }
+  .m_killpecker .c_gallery,
+  .m_killpecker .sub {
+    width: 64.25%;
+    margin: 0 auto;
+  }
+  .m_killpecker .sub {
+    margin-top: 1em !important;
+  }
+  .m_killpecker .d_lines.d--killpecker1 {
+    width: 16.3125%;
+    padding-top: 34.21875%;
+    background-image: url("../img/lines/killpecker1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 32.96875%;
+  }
+  .m_killpecker .d_lines.d--killpecker1:not(.peek85) {
+    clip-path: inset(0 0 100% 0);
+  }
+  .m_killpecker .d_lines.d--killpecker2 {
+    width: 24.375%;
+    padding-top: 38.40625%;
+    background-image: url("../img/lines/killpecker2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 75.625%;
+    margin-top: -15.2%;
+  }
+  .m_killpecker .d_lines__container--killpecker2 {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+  }
+  .m_killpecker .d_lines__container--killpecker2:not(.peek85) .d_lines.d--killpecker2 {
+    clip-path: inset(0 0 100% 0);
+  }
+}
+@media (min-width: 1600px) {
+  .m_killpecker .sub {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .m_killpecker .sub {
+    font-size: 0.9375vw;
+  }
+}
+@media (max-width: 1023px) {
+  .m_killpecker {
+    background: #010104 url(../img/killpecker-bg-mobile.jpg) no-repeat top/100%;
+    text-align: center;
+  }
+  .m_killpecker .content {
+    padding: 88.70968vw 6.6129vw 12.58065vw;
+  }
+  .m_killpecker .sub {
+    font-size: 3.06452vw;
+  }
+  .m_killpecker .d_lines.d--killpecker1 {
+    width: 91.20968vw;
+    padding-top: 114.67742vw;
+    background-image: url("../img/lines/killpecker1-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 8.95161vw;
+    transition-duration: 1500ms;
+  }
+  .m_killpecker .d_lines.d--killpecker1:not(.peek85) {
+    clip-path: inset(0 0 100% 0);
+  }
+}
+
+.m_off_road {
+  background: #010104;
+}
+.m_off_road .heading, .m_off_road .subheading {
+  color: #f8e5c3;
+}
+.m_off_road .subheading {
+  margin-top: 1em;
+}
+.m_off_road p, .m_off_road ul {
+  color: #dadccc;
+}
+.m_off_road p.small, .m_off_road ul.small {
+  color: rgba(218, 220, 204, 0.6);
+}
+.m_off_road ul {
+  list-style: disc !important;
+}
+.m_off_road ul li {
+  margin-left: 1em;
+}
+@media (min-width: 1024px) {
+  .m_off_road .content1 {
+    padding: 2% 16.1875% 0 50.25%;
+  }
+  .m_off_road .content2 {
+    padding: 1.65625% 16.1875% 3.28125% 50.25%;
+  }
+  .m_off_road ul {
+    column-count: 2;
+    width: 143%;
+  }
+  .m_off_road .d_lines.d--off-road1 {
+    width: 23.25%;
+    padding-top: 3.46875%;
+    background-image: url("../img/lines/off-road1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 77.5%;
+    margin-top: 1.6%;
+    transition-duration: 400ms;
+  }
+  .m_off_road .d_lines.d--off-road1:not(.peek85) {
+    clip-path: inset(0 0 0 100%);
+  }
+  .m_off_road .d_lines.d--off-road2 {
+    width: 30%;
+    padding-top: 51.0625%;
+    background-image: url("../img/lines/off-road2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 19.40625%;
+    margin-top: -11.3%;
+  }
+  .m_off_road .d_lines__container--off-road2 {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+  }
+  .m_off_road .d_lines__container--off-road2:not(.peek85) .d_lines.d--off-road2 {
+    clip-path: inset(0 0 100% 0);
+  }
+}
+@media (max-width: 1023px) {
+  .m_off_road .content1 {
+    padding: 19.75806vw 6.6129vw 0;
+  }
+  .m_off_road .content2 {
+    padding: 4.35484vw 6.6129vw 14.1129vw;
+  }
+  .m_off_road .d_lines.d--off-road1 {
+    width: 51.85484vw;
+    padding-top: 43.06452vw;
+    background-image: url("../img/lines/off-road1-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 0;
+    margin-top: -27.41935vw;
+    transition-duration: 500ms;
+  }
+  .m_off_road .d_lines.d--off-road1:not(.peek85) {
+    clip-path: inset(0 0 100% 0);
+  }
+  .m_off_road .d_lines.d--off-road2--mobile {
+    width: 38.79032vw;
+    padding-top: 17.90323vw;
+    background-image: url("../img/lines/off-road2-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: -5.32258vw;
+    margin-top: -11.6vw;
+    transition-duration: 500ms;
+  }
+  .m_off_road .d_lines.d--off-road2--mobile:not(.peek85) {
+    clip-path: inset(0 100% 0 0);
+  }
+  .m_off_road .d_lines__container--off-road2--mobile {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+  }
+}
+
+.m_outro .thats-wy {
+  margin: 0 auto;
+  position: relative;
+}
+.m_outro .heading {
+  line-height: 1.125;
+  color: #f8e5c3;
+}
+.m_outro .heading a {
+  text-decoration: underline;
+}
+.m_outro .heading a:hover {
+  text-decoration: none;
+}
+.m_outro .heading:not(:first-child) {
+  margin-top: 1.53125em;
+}
+.m_outro .heading:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+.m_outro p {
+  color: #d8e6e1;
+}
+.m_outro .c__download {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  column-gap: 1.38122%;
+}
+.m_outro .c__download:not(.peek85) .label {
+  opacity: 0;
+  transform: translateY(-50%);
+}
+.m_outro .c__download .label {
+  transition: opacity 500ms, transform 500ms;
+}
+.m_outro .c__download .label:nth-child(1) {
+  transition-delay: 100ms;
+}
+.m_outro .c__download .label:nth-child(2) {
+  transition-delay: 200ms;
+}
+.m_outro .c__download .label:nth-child(3) {
+  transition-delay: 300ms;
+}
+@media (min-width: 1024px) {
+  .m_outro {
+    background: #9b3230 url(../img/terrain3-bg.png) repeat-y top/100%;
+    padding: 6.25% 0 7.9375%;
+  }
+  .m_outro .thats-wy {
+    width: 11.4375%;
+  }
+  .m_outro .c__media {
+    width: 64.125%;
+    margin: 7.96875% auto 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    column-gap: 4.19103%;
+  }
+  .m_outro .c__media-figure {
+    width: 25.1462%;
+  }
+}
+@media (min-width: 1600px) {
+  .m_outro .heading {
+    font-size: 32px;
+  }
+  .m_outro .c__download .label img {
+    height: 71px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .m_outro .heading {
+    font-size: 2vw;
+  }
+  .m_outro .c__download .label img {
+    height: 4.4375vw;
+  }
+}
+@media (max-width: 1023px) {
+  .m_outro {
+    background: #9b3230 url(../img/terrain3-bg-mobile.png) repeat-y top/100%;
+    padding: 11.29032vw 6.6129vw 20.96774vw;
+    text-align: center;
+  }
+  .m_outro .thats-wy {
+    width: 29.35484vw;
+  }
+  .m_outro .c__media-figure {
+    width: 41.6129vw;
+    margin: 12.58065vw auto 6.29032vw;
+  }
+  .m_outro .heading {
+    font-size: 5.56452vw;
+  }
+  .m_outro .c__download {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.20968vw 1.6129vw;
+  }
+  .m_outro .c__download .label img {
+    height: 11.45161vw;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.m_project {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  letter-spacing: normal;
+  overflow: hidden;
+}
+.m_project *, .m_project *:before, .m_project *:after {
+  box-sizing: inherit;
+}
+.m_project img, .m_project svg {
+  display: block;
+  border: 0;
+  max-width: 100%;
+}
+.m_project a {
+  text-decoration: none;
+  color: inherit;
+}
+.m_project a:hover {
+  text-decoration: none;
+}
+.m_project figure, .m_project fieldset, .m_project legend, .m_project button, .m_project input, .m_project textarea, .m_project ul, .m_project ol, .m_project li, .m_project h1, .m_project h2, .m_project h3, .m_project h4, .m_project h5, .m_project h6, .m_project p, .m_project blockquote {
+  margin: 0;
+  padding: 0;
+}
+.m_project ul, .m_project ol {
+  list-style: none;
+}
+.m_project sup {
+  font-size: 0.6em !important;
+  display: inline-block !important;
+  vertical-align: top !important;
+  margin-top: 0.2em !important;
+  top: auto !important;
+  line-height: 1 !important;
+}
+.m_project button {
+  display: inline-block;
+  font: inherit;
+  border: none;
+  background: none;
+  color: inherit;
+  text-align: inherit;
+  align-items: inherit;
+  cursor: pointer;
+  outline: none;
+}
+.m_project .offscreen {
+  position: fixed;
+  left: -9999em;
+  right: auto;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 1023px) {
+  .m_project .desktop_only {
+    position: fixed;
+    left: -9999em;
+    right: auto;
+    height: 0;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1024px) {
+  .m_project .mobile_only {
+    position: fixed;
+    left: -9999em;
+    right: auto;
+    height: 0;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1600px) {
+  .m_project {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
+
+.m_red_desert {
+  background: #010104;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.m_red_desert p {
+  color: #dadccc;
+}
+.m_red_desert .title {
+  color: #9b3230;
+  margin-bottom: 0.1em;
+}
+@media (min-width: 1024px) {
+  .m_red_desert {
+    padding: 10.21875% 0 0;
+  }
+  .m_red_desert .intro {
+    width: 57%;
+    margin-bottom: 5.5%;
+  }
+  .m_red_desert .d_lines.d--red-desert {
+    width: 65.65625%;
+    padding-top: 31.34375%;
+    background-image: url("../img/lines/red-desert.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 12.1875%;
+    transition-timing-function: ease-in-out;
+  }
+  .m_red_desert .d_lines.d--red-desert:not(.peek85) {
+    clip-path: inset(0 0 100% 100%);
+  }
+}
+@media (max-width: 1023px) {
+  .m_red_desert {
+    padding: 28.22581vw 0 0;
+  }
+  .m_red_desert .intro {
+    padding: 0 6.6129vw 12.90323vw;
+  }
+  .m_red_desert .d_lines.d--red-desert {
+    width: 100vw;
+    padding-top: 13.95161vw;
+    background-image: url("../img/lines/red-desert-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    top: 10.80645vw;
+    transition-duration: 500ms;
+  }
+  .m_red_desert .d_lines.d--red-desert:not(.peek85) {
+    clip-path: inset(0 0 0 100%);
+  }
+}
+
+.m_rock_springs {
+  background: #476e72;
+}
+.m_rock_springs .title, .m_rock_springs .heading {
+  color: #f8e5c3;
+}
+.m_rock_springs .title {
+  margin-bottom: 0.1em;
+}
+.m_rock_springs p {
+  color: #d8e6e1;
+}
+.m_rock_springs .intro {
+  text-align: center;
+}
+.m_rock_springs p.cta a {
+  color: #f8e5c3;
+  letter-spacing: 0;
+  text-decoration: underline;
+}
+.m_rock_springs p.cta a:hover {
+  text-decoration: none;
+}
+@media (min-width: 1024px) {
+  .m_rock_springs {
+    padding: 6.6875% 0 0;
+    background: #476e72 url(../img/rock-springs-bg.jpg) no-repeat bottom/100%;
+  }
+  .m_rock_springs .intro {
+    width: 42.34375%;
+    margin: 0 auto;
+  }
+  .m_rock_springs .content {
+    padding: 7.3125% 16.1875% 5.1875% 50.25%;
+  }
+  .m_rock_springs p.cta {
+    margin-top: -0.7em;
+  }
+  .m_rock_springs .d_lines.d--rock-springs1 {
+    width: 20.78125%;
+    padding-top: 33.75%;
+    background-image: url("../img/lines/rock-springs1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 71.5625%;
+  }
+  .m_rock_springs .d_lines.d--rock-springs1:not(.peek70) {
+    clip-path: inset(0 0 100% 0);
+  }
+  .m_rock_springs .d_lines.d--rock-springs2 {
+    width: 22.09375%;
+    padding-top: 29.25%;
+    background-image: url("../img/lines/rock-springs2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 27.4375%;
+    margin-top: 9.6%;
+    transition-timing-function: ease-in-out;
+  }
+  .m_rock_springs .d_lines__container--rock-springs2 {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+  }
+  .m_rock_springs .d_lines__container--rock-springs2:not(.peek70) .d_lines.d--rock-springs2 {
+    clip-path: inset(0 0 100% 0);
+  }
+}
+@media (min-width: 1600px) {
+  .m_rock_springs .cta a {
+    font-size: 29px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .m_rock_springs .cta a {
+    font-size: 1.8125vw;
+  }
+}
+@media (max-width: 1023px) {
+  .m_rock_springs {
+    padding: 31.45161vw 6.6129vw 13.70968vw;
+    background: #476e72 url(../img/rock-springs-bg-mobile.jpg) no-repeat center/100%;
+  }
+  .m_rock_springs .content {
+    margin-top: 61.29032vw;
+  }
+  .m_rock_springs p.cta:not(:last-child) {
+    margin-bottom: 10.32258vw;
+  }
+  .m_rock_springs p.cta a {
+    font-size: 6.45161vw;
+  }
+  .m_rock_springs .d_lines.d--rock-springs1 {
+    width: 20.96774vw;
+    padding-top: 28.30645vw;
+    background-image: url("../img/lines/rock-springs1-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 38.30645vw;
+    transition-duration: 400ms;
+  }
+  .m_rock_springs .d_lines.d--rock-springs1:not(.peek70) {
+    clip-path: inset(0 0 100% 0);
+  }
+  .m_rock_springs .d_lines.d--rock-springs2 {
+    width: 98.3871vw;
+    padding-top: 92.17742vw;
+    background-image: url("../img/lines/rock-springs2-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: -6.6129vw;
+    margin-top: 1vw;
+    transition-timing-function: ease-in-out;
+  }
+  .m_rock_springs .d_lines__container--rock-springs2 {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+  }
+  .m_rock_springs .d_lines__container--rock-springs2:not(.peek70) .d_lines.d--rock-springs2 {
+    clip-path: inset(0 0 100% 100%);
+  }
+}
+
+.mtp {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.fullWidthPage .o-Capsule {
+  margin: 0;
+  padding: 0;
+}
+.fullWidthPage .o-Capsule:not(.o-FullWidthStrip) {
+  max-width: none;
+}
+
+.o-Capsule {
+  margin: 0;
+}
+
+.container-site {
+  padding: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
